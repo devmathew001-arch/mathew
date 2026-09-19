@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mathew Maged – AI Automation Specialist, Content Creator, Programmer & Graphic Designer based in Cairo, Egypt. Explore my portfolio of AI workflows, web apps, and media." />
+  <meta name="keywords" content="Mathew Maged, portfolio, AI Automation, Content Creator, programmer, graphic designer, Cairo, Egypt, web development" />
+  <meta property="og:title" content="Mathew Maged | AI Automation Specialist & Content Creator" />
+  <meta property="og:description" content="Explore the portfolio of Mathew Maged — AI Automation Specialist, Content Creator, Programmer & Graphic Designer from Cairo." />
+  <title>Mathew Maged | AI Automation, Content Creator & Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+  <link rel="icon" type="image/png" href="profile.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== LOADER ===== -->
+  <div id="loader" class="loader">
+    <div class="loader-terminal glass-card">
+      <div class="term-header">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+      </div>
+      <div class="term-body">
+        <p><span class="term-prompt">mathew@dev:~$</span> ./init_portfolio.sh</p>
+        <p class="term-output" id="term-text"></p>
+        <p class="term-active"><span class="term-prompt">mathew@dev:~$</span><span class="term-caret">_</span></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== NAV ===== -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>MM<span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary nav-cta">Hire Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <canvas id="particles-canvas"></canvas>
+    <div class="hero-grid-lines"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge reveal-item">
+        <span class="badge-dot"></span>
+        Available for Freelance
+      </div>
+
+      <h1 class="hero-title reveal-item">
+        <span class="title-line">Mathew</span>
+        <span class="title-line gradient-text">Maged</span>
+      </h1>
+
+      <div class="hero-subtitle reveal-item">
+        <span class="typed-text" id="typed"></span>
+        <span class="cursor-blink">|</span>
+      </div>
+
+      <p class="hero-description reveal-item">
+        A passionate <strong>15-year-old</strong> <strong>AI Automation Specialist</strong>, <strong>Content Creator</strong>, programmer &amp; designer from <strong>Cairo, Egypt</strong> — crafting intelligent workflows &amp; premium digital experiences.
+      </p>
+
+      <div class="hero-actions reveal-item">
+        <a href="#projects" class="btn btn-primary btn-glow">
+          <span>View My Work</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+
+      <div class="hero-stats reveal-item">
+        <div class="stat">
+          <span class="stat-number" data-target="12">0</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="4">0</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="6">0</span>
+          <span class="stat-label">Skills</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">1+</span>
+          <span class="stat-label">Years Exp.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-image-wrap reveal-item">
+      <div class="image-glow-ring"></div>
+      <div class="image-orbit orbit-1"></div>
+      <div class="image-orbit orbit-2"></div>
+      <div class="hero-img-container">
+        <img src="profile.png" alt="Mathew Maged" class="hero-img" id="hero-img" />
+      </div>
+      <div class="floating-card card-1">
+        <div class="fc-icon">🤖</div>
+        <div class="fc-text">
+          <span class="fc-title">AI Automation</span>
+          <span class="fc-sub">Workflows &amp; Agents</span>
+        </div>
+      </div>
+      <div class="floating-card card-2">
+        <div class="fc-icon">🎬</div>
+        <div class="fc-text">
+          <span class="fc-title">Content Creator</span>
+          <span class="fc-sub">Media &amp; Video</span>
+        </div>
+      </div>
+      <div class="floating-card card-3">
+        <div class="fc-icon">💻</div>
+        <div class="fc-text">
+          <span class="fc-title">Dev &amp; Design</span>
+          <span class="fc-sub">Cairo, Egypt</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-tag reveal-item">About Me</div>
+      <h2 class="section-title reveal-item">Who I <span class="gradient-text">Am</span></h2>
+
+      <div class="about-grid">
+        <div class="about-text reveal-item">
+          <p>I'm <strong>Mathew Maged</strong>, a 15-year-old developer and designer based in Cairo, Egypt. Despite my young age, I have already gained real-world professional experience as a <strong>Junior Programmer at Vezeeta</strong> — one of Egypt's leading health-tech companies.</p>
+          <p>I'm passionate about building modern digital experiences that combine clean code with stunning design. I believe great products live at the intersection of engineering and aesthetics.</p>
+          <p>Currently studying at <strong>El Patriarchal School</strong> while pursuing freelance opportunities to grow my portfolio and make an impact in the digital world.</p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <div class="highlight-icon">🏫</div>
+              <div>
+                <strong>El Patriarchal School</strong>
+                <span>Cairo, Egypt</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">🏢</div>
+              <div>
+                <strong>Vezeeta</strong>
+                <span>Junior Programmer</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">📍</div>
+              <div>
+                <strong>Cairo, Egypt</strong>
+                <span>Based & Working Globally</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-visual reveal-item">
+          <div class="about-card glass-card">
+            <div class="ac-header">
+              <span class="ac-dot red"></span>
+              <span class="ac-dot yellow"></span>
+              <span class="ac-dot green"></span>
+              <span class="ac-title">mathew.json</span>
+            </div>
+            <pre class="code-block"><span class="code-key">{</span>
+  <span class="code-prop">"name"</span>: <span class="code-str">"Mathew Maged"</span>,
+  <span class="code-prop">"age"</span>: <span class="code-num">15</span>,
+  <span class="code-prop">"role"</span>: <span class="code-str">"AI Automation &amp; Content Creator"</span>,
+  <span class="code-prop">"location"</span>: <span class="code-str">"Cairo, Egypt 🌍"</span>,
+  <span class="code-prop">"company"</span>: <span class="code-str">"Vezeeta"</span>,
+  <span class="code-prop">"available"</span>: <span class="code-bool">true</span>,
+  <span class="code-prop">"skills"</span>: [
+    <span class="code-str">"AI Automation 🤖"</span>,
+    <span class="code-str">"Content Creation 🎬"</span>,
+    <span class="code-str">"Programming 💻"</span>,
+    <span class="code-str">"Web Dev 🌐"</span>,
+    <span class="code-str">"Graphic Design 🎨"</span>
+  ],
+  <span class="code-prop">"certifications"</span>: [
+    <span class="code-str">"Google Cloud Professional ML Engineer ☁️"</span>,
+    <span class="code-str">"Harvard University CS50 🏛️"</span>,
+    <span class="code-str">"Meta Front-End Developer ♾️"</span>,
+    <span class="code-str">"Python Institute Certified PCEP 🐍"</span>
+  ],
+  <span class="code-prop">"passion"</span>: <span class="code-str">"Building &amp; Automating the Future 🚀"</span>
+<span class="code-key">}</span></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <div class="section-tag reveal-item">My Arsenal</div>
+      <h2 class="section-title reveal-item">Skills & <span class="gradient-text">Tools</span></h2>
+      <p class="section-desc reveal-item">Technologies and tools I use to bring ideas to life</p>
+
+      <div class="skills-grid">
+        <div class="skill-card glass-card featured reveal-item">
+          <div class="skill-badge">Core Specialty</div>
+          <div class="skill-icon-wrap" style="--color: #00d4ff">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#00d4ff" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+          </div>
+          <h3>AI Automation</h3>
+          <p>Architecting autonomous AI agents, automated workflows with n8n &amp; Make, custom LLM integrations, and process optimization.</p>
+          <div class="skill-tags">
+            <span class="tag tag-highlight">n8n</span><span class="tag tag-highlight">Make.com</span><span class="tag tag-highlight">OpenAI API</span><span class="tag tag-highlight">AI Agents</span>
+          </div>
+        </div>
+
+        <div class="skill-card glass-card reveal-item">
+          <div class="skill-icon-wrap" style="--color: #ec4899">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </div>
+          <h3>Content Creation</h3>
+          <p>Crafting high-engagement digital media, video production, visual storytelling, and strategic content for online audiences.</p>
+          <div class="skill-tags">
+            <span class="tag">Video Production</span><span class="tag">Storytelling</span><span class="tag">Social Media</span>
+          </div>
+        </div>
+
+        <div class="skill-card glass-card reveal-item">
+          <div class="skill-icon-wrap" style="--color: #4f8ef7">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#4f8ef7" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Programming</h3>
+          <p>Proficient in multiple programming languages, writing clean, scalable code for various platforms.</p>
+          <div class="skill-tags">
+            <span class="tag">JavaScript</span><span class="tag">Python</span><span class="tag">HTML/CSS</span>
+          </div>
+        </div>
+
+        <div class="skill-card glass-card reveal-item">
+          <div class="skill-icon-wrap" style="--color: #a855f7">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+          </div>
+          <h3>Web Development</h3>
+          <p>Building modern, responsive websites and web applications with cutting-edge technologies and frameworks.</p>
+          <div class="skill-tags">
+            <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">CSS</span>
+          </div>
+        </div>
+
+        <div class="skill-card glass-card reveal-item">
+          <div class="skill-icon-wrap" style="--color: #10b981">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+          </div>
+          <h3>App Development</h3>
+          <p>Creating cross-platform mobile applications with seamless user experiences and native-like performance.</p>
+          <div class="skill-tags">
+            <span class="tag">Mobile</span><span class="tag">Cross-Platform</span><span class="tag">UI/UX</span>
+          </div>
+        </div>
+
+        <div class="skill-card glass-card reveal-item">
+          <div class="skill-icon-wrap" style="--color: #f59e0b">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="1.5"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+          </div>
+          <h3>Graphic Design</h3>
+          <p>Crafting stunning visual identities, UI designs, and digital artwork using Adobe Creative tools.</p>
+          <div class="skill-tags">
+            <span class="tag">Photoshop</span><span class="tag">UI Design</span><span class="tag">Branding</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tools-section reveal-item">
+        <h3 class="tools-title">Tools I Work With</h3>
+        <div class="tools-grid">
+          <div class="tool-item">
+            <div class="tool-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" />
+            </div>
+            <span>VS Code</span>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" alt="Photoshop" />
+            </div>
+            <span>Photoshop</span>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+            </div>
+            <span>JavaScript</span>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+            </div>
+            <span>React</span>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+            </div>
+            <span>Node.js</span>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+            </div>
+            <span>Python</span>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+            </div>
+            <span>Git</span>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" />
+            </div>
+            <span>Figma</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section experience-section">
+    <div class="container">
+      <div class="section-tag reveal-item">My Journey</div>
+      <h2 class="section-title reveal-item">Work <span class="gradient-text">Experience</span></h2>
+
+      <div class="timeline">
+        <div class="timeline-item reveal-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <div class="exp-header">
+              <div class="exp-logo-wrap">
+                <img src="https://www.vezeeta.com/favicon.ico" alt="Vezeeta" class="exp-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                <div class="exp-logo-fallback" style="display:none">V</div>
+              </div>
+              <div class="exp-info">
+                <h3>Junior Programmer</h3>
+                <span class="exp-company">Vezeeta</span>
+              </div>
+              <div class="exp-badge">Current</div>
+            </div>
+            <p>Gained real-world professional experience working at Vezeeta — Egypt's leading healthcare technology platform. Developed and maintained software features, collaborated with senior engineers, and contributed to production-level code.</p>
+            <div class="exp-stack">
+              <span class="tag">Programming</span>
+              <span class="tag">Team Collaboration</span>
+              <span class="tag">Production Code</span>
+              <span class="tag">Agile</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <div class="exp-header">
+              <div class="exp-logo-wrap edu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </div>
+              <div class="exp-info">
+                <h3>Student</h3>
+                <span class="exp-company">El Patriarchal School</span>
+              </div>
+              <div class="exp-badge ongoing">Ongoing</div>
+            </div>
+            <p>Pursuing academic studies at El Patriarchal School in Cairo, balancing education with professional development and freelance projects. Continuously expanding knowledge in technology, design, and computer science.</p>
+            <div class="exp-stack">
+              <span class="tag">Cairo, Egypt</span>
+              <span class="tag">Computer Science</span>
+              <span class="tag">Self Learning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section id="certifications" class="section certifications-section">
+    <div class="container">
+      <div class="section-tag reveal-item">Verified Credentials</div>
+      <h2 class="section-title reveal-item">Professional <span class="gradient-text">Certifications</span></h2>
+      <p class="section-desc reveal-item">Official industry certifications validating specialized engineering &amp; AI expertise</p>
+
+      <div class="certifications-grid">
+
+        <!-- HARVARD CS50 -->
+        <div class="cert-card glass-card reveal-item">
+          <div class="cert-image-wrap" onclick="openCertModal('harvard-cs50-certificate.jpg', 'Harvard University - CS50 Introduction to Computer Science')">
+            <img src="harvard-cs50-certificate.jpg" alt="Harvard University CS50 Introduction to Computer Science" class="cert-img" />
+            <div class="cert-image-overlay">
+              <span class="cert-zoom-btn">
+                <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                View Full Certificate
+              </span>
+            </div>
+            <div class="cert-badge" style="border-color: rgba(239, 68, 68, 0.4); color: #ef4444;">Harvard University</div>
+          </div>
+
+          <div class="cert-content">
+            <div class="cert-header">
+              <div class="cert-logo-box" style="background: rgba(239, 68, 68, 0.1); border-color: rgba(239, 68, 68, 0.25);">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </div>
+              <div>
+                <h3 class="cert-title">CS50's Introduction to Computer Science</h3>
+                <span class="cert-provider" style="color: #ef4444;">Harvard University / HarvardX</span>
+              </div>
+            </div>
+
+            <p class="cert-desc">
+              College-level computer science certification from Harvard University teaching problem-solving, algorithms, memory, data structures, and software engineering.
+            </p>
+
+            <div class="cert-meta-grid">
+              <div class="cert-meta-item">
+                <span class="meta-label">Recipient</span>
+                <span class="meta-value">Mathew Maged Hanna Fayez</span>
+              </div>
+              <div class="cert-meta-item">
+                <span class="meta-label">Date Certified</span>
+                <span class="meta-value">May 11, 2026</span>
+              </div>
+              <div class="cert-meta-item">
+                <span class="meta-label">Instructor</span>
+                <span class="meta-value">David J. Malan</span>
+              </div>
+              <div class="cert-meta-item">
+                <span class="meta-label">Verification</span>
+                <span class="meta-value code-font" style="color: #ef4444;">verify.cs50.net</span>
+              </div>
+            </div>
+
+            <div class="cert-footer">
+              <button class="btn btn-primary btn-sm" onclick="openCertModal('harvard-cs50-certificate.jpg', 'Harvard University - CS50 Introduction to Computer Science')">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                View High-Res Certificate
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- META FRONT-END DEVELOPER -->
+        <div class="cert-card glass-card reveal-item">
+          <div class="cert-image-wrap" onclick="openCertModal('meta-frontend-certificate.jpg', 'Meta Front-End Developer Professional Certificate')">
+            <img src="meta-frontend-certificate.jpg" alt="Meta Front-End Developer Professional Certificate" class="cert-img" />
+            <div class="cert-image-overlay">
+              <span class="cert-zoom-btn">
+                <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                View Full Certificate
+              </span>
+            </div>
+            <div class="cert-badge" style="border-color: rgba(79, 142, 247, 0.4); color: #4f8ef7;">Meta Certified</div>
+          </div>
+
+          <div class="cert-content">
+            <div class="cert-header">
+              <div class="cert-logo-box" style="background: rgba(79, 142, 247, 0.1); border-color: rgba(79, 142, 247, 0.25);">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="#4f8ef7"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm1 14.5h-2v-5h2v5zm0-7h-2V7h2v2.5z"/></svg>
+              </div>
+              <div>
+                <h3 class="cert-title">Meta Front-End Developer</h3>
+                <span class="cert-provider" style="color: #4f8ef7;">Meta Professional Certificate</span>
+              </div>
+            </div>
+
+            <p class="cert-desc">
+              Comprehensive 9-course professional program preparing for front-end engineering: React, JavaScript, HTML/CSS in depth, UI/UX principles, and capstone projects.
+            </p>
+
+            <div class="cert-meta-grid">
+              <div class="cert-meta-item">
+                <span class="meta-label">Recipient</span>
+                <span class="meta-value">Mathew Maged</span>
+              </div>
+              <div class="cert-meta-item">
+                <span class="meta-label">Date Certified</span>
+                <span class="meta-value">Sep 5, 2023</span>
+              </div>
+              <div class="cert-meta-item">
+                <span class="meta-label">Program</span>
+                <span class="meta-value">9 Courses Specialization</span>
+              </div>
+              <div class="cert-meta-item">
+                <span class="meta-label">Credential ID</span>
+                <span class="meta-value code-font" style="color: #4f8ef7;">DH6G9ZM3923Y</span>
+              </div>
+            </div>
+
+            <div class="cert-footer">
+              <button class="btn btn-primary btn-sm" onclick="openCertModal('meta-frontend-certificate.jpg', 'Meta Front-End Developer Professional Certificate')">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                View High-Res Certificate
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- PYTHON INSTITUTE PCEP -->
+        <div class="cert-card glass-card reveal-item">
+          <div class="cert-image-wrap" onclick="openCertModal('python-pcep-certificate.jpg', 'Python Institute PCEP Certified Entry-Level Python Programmer')">
+            <img src="python-pcep-certificate.jpg" alt="Python Institute PCEP Certified Entry-Level Python Programmer" class="cert-img" />
+            <div class="cert-image-overlay">
+              <span class="cert-zoom-btn">
+                <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                View Full Certificate
+              </span>
+            </div>
+            <div class="cert-badge" style="border-color: rgba(245, 158, 11, 0.4); color: #f59e0b;">Python Institute</div>
+          </div>
+
+          <div class="cert-content">
+            <div class="cert-header">
+              <div class="cert-logo-box" style="background: rgba(245, 158, 11, 0.1); border-color: rgba(245, 158, 11, 0.25);">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <div>
+                <h3 class="cert-title">PCEP - Certified Entry-Level Python Programmer</h3>
+                <span class="cert-provider" style="color: #f59e0b;">Python Institute (OpenEDG)</span>
+              </div>
+            </div>
+
+            <p class="cert-desc">
+              Certified proficiency in Python programming language: data types, control structures, lists/tuples/dictionaries, functions, and algorithmic logic.
+            </p>
+
+            <div class="cert-meta-grid">
+              <div class="cert-meta-item">
+                <span class="meta-label">Recipient</span>
+                <span class="meta-value">Mathew Maged</span>
+              </div>
+              <div class="cert-meta-item">
+                <span class="meta-label">Date Certified</span>
+                <span class="meta-value">August 1, 2021</span>
+              </div>
+              <div class="cert-meta-item">
+                <span class="meta-label">Exam Version</span>
+                <span class="meta-value">PCEP-30-01</span>
+              </div>
+              <div class="cert-meta-item">
+                <span class="meta-label">Certification Code</span>
+                <span class="meta-value code-font" style="color: #f59e0b;">YHWS.f5YQ.VrWq</span>
+              </div>
+            </div>
+
+            <div class="cert-footer">
+              <button class="btn btn-primary btn-sm" onclick="openCertModal('python-pcep-certificate.jpg', 'Python Institute PCEP Certified Entry-Level Python Programmer')">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                View High-Res Certificate
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- GOOGLE CLOUD CERTIFIED -->
+        <div class="cert-card glass-card reveal-item">
+          <div class="cert-image-wrap" onclick="openCertModal('gcp-certificate.jpg', 'Google Cloud Certified - Professional Machine Learning Engineer')">
+            <img src="gcp-certificate.jpg" alt="Google Cloud Certified Professional Machine Learning Engineer" class="cert-img" />
+            <div class="cert-image-overlay">
+              <span class="cert-zoom-btn">
+                <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                View Full Certificate
+              </span>
+            </div>
+            <div class="cert-badge">Google Cloud Certified</div>
+          </div>
+
+          <div class="cert-content">
+            <div class="cert-header">
+              <div class="cert-logo-box">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM19 18H6c-2.21 0-4-1.79-4-4 0-2.05 1.53-3.76 3.56-3.97l1.07-.11.5-.95C8.08 7.14 9.94 6 12 6c2.62 0 4.88 1.86 5.39 4.43l.3 1.5 1.53.11c1.56.1 2.78 1.41 2.78 2.96 0 1.65-1.35 3-3 3z" fill="#4f8ef7"/></svg>
+              </div>
+              <div>
+                <h3 class="cert-title">Professional Machine Learning Engineer</h3>
+                <span class="cert-provider">Google Cloud Certification</span>
+              </div>
+            </div>
+
+            <p class="cert-desc">
+              Officially certified by Google Cloud to design, build, and deploy production machine learning models and scalable AI solutions.
+            </p>
+
+            <div class="cert-meta-grid">
+              <div class="cert-meta-item">
+                <span class="meta-label">Recipient</span>
+                <span class="meta-value">Mathew Maged Hanna</span>
+              </div>
+              <div class="cert-meta-item">
+                <span class="meta-label">Issue Date</span>
+                <span class="meta-value">29 April 2026</span>
+              </div>
+              <div class="cert-meta-item">
+                <span class="meta-label">Expiration</span>
+                <span class="meta-value">29 April 2028</span>
+              </div>
+              <div class="cert-meta-item">
+                <span class="meta-label">Certification ID</span>
+                <span class="meta-value code-font">K0YewN</span>
+              </div>
+            </div>
+
+            <div class="cert-footer">
+              <button class="btn btn-primary btn-sm" onclick="openCertModal('gcp-certificate.jpg', 'Google Cloud Certified - Professional Machine Learning Engineer')">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                View High-Res Certificate
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <div class="section-tag reveal-item">My Work</div>
+      <h2 class="section-title reveal-item">Featured <span class="gradient-text">Projects</span></h2>
+      <p class="section-desc reveal-item">Real-world projects I've contributed to or developed</p>
+
+      <div class="projects-grid">
+
+        <div class="project-card glass-card reveal-item">
+          <div class="project-image-wrap">
+            <div class="project-overlay">
+              <a href="https://sportsacademyeg.com/ar/" target="_blank" rel="noopener" class="project-link-btn">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Visit Site
+              </a>
+            </div>
+            <img src="https://placehold.co/600x340/060812/ec4899?text=Sports+Academy+Egypt" alt="Sports Academy Egypt" class="project-img" />
+            <div class="project-category">Sports &amp; Youth Platform</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Sports Academy Egypt</h3>
+            <p class="project-desc">A leading accredited sports academy platform in Egypt serving over 10+ years of national champions, gymnastics, martial arts, and official youth sports programs.</p>
+            <div class="project-tech">
+              <span class="tag">Web Platform</span><span class="tag">Sports Tech</span><span class="tag">Egypt</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card glass-card reveal-item">
+          <div class="project-image-wrap">
+            <div class="project-overlay">
+              <a href="https://www.smart-gym.com/" target="_blank" rel="noopener" class="project-link-btn">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Visit Site
+              </a>
+            </div>
+            <img src="https://placehold.co/600x340/060812/10b981?text=Smart+Gym" alt="Smart Gym" class="project-img" />
+            <div class="project-category">Fitness &amp; Health Tech</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Smart Gym Platform</h3>
+            <p class="project-desc">A modern health and fitness platform delivering digital workout memberships, trainer scheduling, and premium gym experiences across Egypt.</p>
+            <div class="project-tech">
+              <span class="tag">Web App</span><span class="tag">Fitness</span><span class="tag">Health Tech</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card glass-card reveal-item">
+          <div class="project-image-wrap">
+            <div class="project-overlay">
+              <a href="https://stmarkos.org/index.php/ar/" target="_blank" rel="noopener" class="project-link-btn">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Visit Site
+              </a>
+            </div>
+            <img src="https://placehold.co/600x340/060812/a855f7?text=St.+Markos+Cleopatra" alt="St. Markos Cleopatra" class="project-img" />
+            <div class="project-category">Community &amp; Media Portal</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">St. Markos Cleopatra Portal</h3>
+            <p class="project-desc">A comprehensive digital portal for St. Markos Cleopatra, featuring media archives, live digital streaming, community services, and event schedules.</p>
+            <div class="project-tech">
+              <span class="tag">Community Portal</span><span class="tag">Media Hub</span><span class="tag">Services</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card glass-card reveal-item">
+          <div class="project-image-wrap">
+            <div class="project-overlay">
+              <a href="https://new-folder-14-five.vercel.app/" target="_blank" rel="noopener" class="project-link-btn">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Visit Site
+              </a>
+            </div>
+            <img src="https://placehold.co/600x340/060812/4f8ef7?text=XHALE.EGY+Fitness" alt="XHALE.EGY Fitness" class="project-img" />
+            <div class="project-category">Fitness &amp; Gym Platform</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">XHALE.EGY — Build What You Conquer</h3>
+            <p class="project-desc">A premium athletic fitness platform for XHALE.EGY located in Heliopolis, Cairo. Features modern web application design, interactive workout scheduling, and strength &amp; CrossFit training showcases.</p>
+            <div class="project-tech">
+              <span class="tag">Web App</span><span class="tag">React</span><span class="tag">Fitness</span><span class="tag">Heliopolis</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card glass-card reveal-item">
+          <div class="project-image-wrap">
+            <div class="project-overlay">
+              <a href="WhatsApp Video 2026-04-06 at 10.30.01 PM.mp4" target="_blank" rel="noopener" class="project-link-btn">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h6M10 14L21 3"/></svg>
+                Watch Video
+              </a>
+            </div>
+            <video src="WhatsApp Video 2026-04-06 at 10.30.01 PM.mp4" autoplay loop muted playsinline class="project-img" style="object-fit: cover;"></video>
+            <div class="project-category">App Feature</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Feature Showcase Video</h3>
+            <p class="project-desc">A full demonstration of the developed feature highlighting its smooth interactions and core functionality.</p>
+            <div class="project-tech">
+              <span class="tag">Video Demo</span><span class="tag">App Dev</span><span class="tag">Showcase</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card glass-card reveal-item">
+          <div class="project-image-wrap">
+            <div class="project-overlay">
+              <a href="https://nexamind-helpcenter.wasmer.app" target="_blank" rel="noopener" class="project-link-btn">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Visit Site
+              </a>
+            </div>
+            <img src="https://placehold.co/600x340/0f1117/4f8ef7?text=Nexamind+Help+Center" alt="Nexamind Help Center" class="project-img" />
+            <div class="project-category">Support Platform</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Nexamind Help Center</h3>
+            <p class="project-desc">A comprehensive help center designed to assist Nexamind users with modern look and seamless navigation.</p>
+            <div class="project-tech">
+              <span class="tag">Web App</span><span class="tag">Support</span><span class="tag">UI/UX</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card glass-card reveal-item">
+          <div class="project-image-wrap">
+            <div class="project-overlay">
+              <a href="https://www.vezeeta.com/" target="_blank" rel="noopener" class="project-link-btn">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Visit Site
+              </a>
+            </div>
+            <img src="https://www.vezeeta.com/og-image.png" alt="Vezeeta" class="project-img" onerror="this.src='https://placehold.co/600x340/0f1117/4f8ef7?text=Vezeeta'" />
+            <div class="project-category">Healthcare Tech</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Vezeeta</h3>
+            <p class="project-desc">Egypt's leading healthcare technology platform. Contributed as a Junior Programmer to the development of features serving millions of users across the MENA region.</p>
+            <div class="project-tech">
+              <span class="tag">Web Platform</span><span class="tag">Healthcare</span><span class="tag">MENA</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card glass-card reveal-item">
+          <div class="project-image-wrap">
+            <div class="project-overlay">
+              <a href="https://vegaegy.com/" target="_blank" rel="noopener" class="project-link-btn">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Visit Site
+              </a>
+            </div>
+            <img src="https://placehold.co/600x340/0f1117/a855f7?text=Vega+Egypt" alt="Vega Egypt" class="project-img" />
+            <div class="project-category">Business</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Vega Egypt</h3>
+            <p class="project-desc">A professional business platform developed for the Egyptian market. Built with modern web technologies delivering a seamless digital experience.</p>
+            <div class="project-tech">
+              <span class="tag">Web Dev</span><span class="tag">Egypt</span><span class="tag">Business</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card glass-card reveal-item">
+          <div class="project-image-wrap">
+            <div class="project-overlay">
+              <a href="https://misfaten.xo.je/" target="_blank" rel="noopener" class="project-link-btn">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Visit Site
+              </a>
+            </div>
+            <img src="https://placehold.co/600x340/0f1117/ec4899?text=Misfaten" alt="Misfaten" class="project-img" />
+            <div class="project-category">Digital Platform</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Misfaten</h3>
+            <p class="project-desc">A creative digital platform with a unique user experience. Designed and developed with attention to aesthetic detail and modern interaction patterns.</p>
+            <div class="project-tech">
+              <span class="tag">Web Dev</span><span class="tag">UI Design</span><span class="tag">Creative</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card glass-card reveal-item">
+          <div class="project-image-wrap">
+            <div class="project-overlay">
+              <a href="https://www.orcas.io/" target="_blank" rel="noopener" class="project-link-btn">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Visit Site
+              </a>
+            </div>
+            <img src="https://placehold.co/600x340/0f1117/4f8ef7?text=Orcas.io" alt="Orcas.io" class="project-img" />
+            <div class="project-category">Tech Startup</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Orcas.io</h3>
+            <p class="project-desc">A technology startup platform delivering innovative digital solutions. Contributed to building scalable web infrastructure and sleek front-end interfaces.</p>
+            <div class="project-tech">
+              <span class="tag">Tech</span><span class="tag">Startup</span><span class="tag">Web App</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card glass-card reveal-item">
+          <div class="project-image-wrap">
+            <div class="project-overlay">
+              <a href="https://dolt-eg.com/" target="_blank" rel="noopener" class="project-link-btn">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Visit Site
+              </a>
+            </div>
+            <img src="https://placehold.co/600x340/0f1117/f59e0b?text=Dolt+Egypt" alt="Dolt Egypt" class="project-img" />
+            <div class="project-category">E-Commerce</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Dolt Egypt</h3>
+            <p class="project-desc">An Egyptian market platform with rich product experiences. Built a fast, responsive interface optimized for performance and user engagement.</p>
+            <div class="project-tech">
+              <span class="tag">E-Commerce</span><span class="tag">Egypt</span><span class="tag">Frontend</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card glass-card reveal-item">
+          <div class="project-image-wrap">
+            <div class="project-overlay">
+              <a href="https://genz-s.com/" target="_blank" rel="noopener" class="project-link-btn">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Visit Site
+              </a>
+            </div>
+            <img src="https://placehold.co/600x340/0f1117/10b981?text=GenZ-S" alt="GenZ-S" class="project-img" />
+            <div class="project-category">Community</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">GenZ-S</h3>
+            <p class="project-desc">A vibrant platform targeting the Gen Z audience with modern aesthetics. Designed with a youthful, energetic interface that resonates with the next generation.</p>
+            <div class="project-tech">
+              <span class="tag">Community</span><span class="tag">Gen Z</span><span class="tag">Design</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DESIGN PORTFOLIO ===== -->
+  <section id="design" class="section design-section">
+    <div class="container">
+      <div class="section-tag reveal-item">Visual Arts</div>
+      <h2 class="section-title reveal-item">Photoshop & <span class="gradient-text">Design Work</span></h2>
+      <p class="section-desc reveal-item">A showcase of my premium photo manipulations, product designs, and graphic artwork.</p>
+
+      <div class="design-gallery">
+        <div class="design-item glass-card reveal-item">
+          <img src="design1.jpeg" alt="Design Layout 1" class="design-img" onerror="this.src='https://placehold.co/800x1200/0f1117/4f8ef7?text=Design+1'" />
+        </div>
+        <div class="design-item glass-card reveal-item">
+          <img src="design2.jpeg" alt="Design Layout 2" class="design-img" onerror="this.src='https://placehold.co/800x1200/0f1117/a855f7?text=Design+2'" />
+        </div>
+        <div class="design-item glass-card reveal-item">
+          <img src="design3.jpeg" alt="Design Layout 3" class="design-img" onerror="this.src='https://placehold.co/800x1200/0f1117/ec4899?text=Design+3'" />
+        </div>
+        <div class="design-item glass-card reveal-item">
+          <img src="design4.jpeg" alt="Design Layout 4" class="design-img" onerror="this.src='https://placehold.co/800x1200/0f1117/10b981?text=Design+4'" />
+        </div>
+        <div class="design-item glass-card reveal-item">
+          <img src="design5.jpeg" alt="Design Layout 5" class="design-img" onerror="this.src='https://placehold.co/800x1200/0f1117/f59e0b?text=Design+5'" />
+        </div>
+        <div class="design-item glass-card reveal-item">
+          <img src="design6.jpeg" alt="Design Layout 6" class="design-img" onerror="this.src='https://placehold.co/800x1200/0f1117/4f8ef7?text=Design+6'" />
+        </div>
+        <div class="design-item glass-card reveal-item">
+          <img src="design7.jpeg" alt="Design Layout 7" class="design-img" onerror="this.src='https://placehold.co/800x1200/0f1117/a855f7?text=Design+7'" />
+        </div>
+        <div class="design-item glass-card reveal-item">
+          <img src="design8.jpeg" alt="Design Layout 8" class="design-img" onerror="this.src='https://placehold.co/800x1200/0f1117/ec4899?text=Design+8'" />
+        </div>
+        <div class="design-item glass-card reveal-item">
+          <img src="design9.jpeg" alt="Design Layout 9" class="design-img" onerror="this.src='https://placehold.co/800x1200/0f1117/10b981?text=Design+9'" />
+        </div>
+        <div class="design-item glass-card reveal-item">
+          <img src="design10.jpeg" alt="Design Layout 10" class="design-img" onerror="this.src='https://placehold.co/800x1200/0f1117/f59e0b?text=Design+10'" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-tag reveal-item">Let's Connect</div>
+      <h2 class="section-title reveal-item">Get In <span class="gradient-text">Touch</span></h2>
+      <p class="section-desc reveal-item">Ready to bring your vision to life? Let's work together and create something extraordinary.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal-item">
+          <div class="contact-card glass-card">
+            <h3>Contact Details</h3>
+
+            <a href="tel:+201271091411" class="contact-item" id="contact-phone">
+              <div class="contact-icon-wrap" style="--color:#4f8ef7">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4f8ef7" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.73 11a19.79 19.79 0 01-3.07-8.67A2 2 0 012.68 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.38a16 16 0 006 6l1.74-1.74a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 13.92z"/></svg>
+              </div>
+              <div>
+                <span class="ci-label">Phone</span>
+                <span class="ci-value">+20 127 109 1411</span>
+              </div>
+            </a>
+
+            <a href="mailto:mathewmaged178@gmail.com" class="contact-item" id="contact-email">
+              <div class="contact-icon-wrap" style="--color:#a855f7">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <span class="ci-label">Email</span>
+                <span class="ci-value">mathewmaged178@gmail.com</span>
+              </div>
+            </a>
+
+            <div class="contact-item" id="contact-location">
+              <div class="contact-icon-wrap" style="--color:#ec4899">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <span class="ci-label">Location</span>
+                <span class="ci-value">Cairo, Egypt 🌍</span>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="mailto:mathewmaged178@gmail.com" class="social-btn" aria-label="Email" id="social-email">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </a>
+              <a href="https://github.com/" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub" id="social-github">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+              </a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn" id="social-linkedin">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap reveal-item">
+          <!-- Hidden iframe for preventing page redirect when form submits -->
+          <iframe name="hiddenCapture" id="hiddenCapture" style="display:none;"></iframe>
+          <form action="https://formsubmit.co/mathewmaged178@gmail.com" method="POST" target="hiddenCapture" class="contact-form glass-card" id="contact-form">
+            <!-- Formsubmit configs -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="New Portfolio Message!">
+            <input type="hidden" name="_template" value="table">
+            
+            <h3>Send a Message</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cf-name">Your Name</label>
+                <input type="text" id="cf-name" name="name" placeholder="John Doe" required />
+              </div>
+              <div class="form-group">
+                <label for="cf-email">Your Email</label>
+                <input type="email" id="cf-email" name="email" placeholder="john@example.com" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cf-phone">Phone Number</label>
+                <input type="tel" id="cf-phone" name="phone" required style="width: 100%;" />
+              </div>
+              <div class="form-group">
+                <label for="cf-subject">Subject</label>
+                <input type="text" id="cf-subject" name="subject" placeholder="Project Inquiry" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="cf-message">Message</label>
+              <textarea id="cf-message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-glow btn-full" id="form-submit">
+              <span>Send Message</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+            <div class="form-success" id="form-success">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Message sent! I'll get back to you soon 🚀
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <span class="logo-bracket">&lt;</span>MM<span class="logo-bracket">/&gt;</span>
+        </div>
+        <p class="footer-text">Crafted with ❤️ by <strong>Mathew Maged</strong> · Cairo, Egypt</p>
+        <p class="footer-copy">© 2025 Mathew Maged. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== CERTIFICATE LIGHTBOX MODAL ===== -->
+  <div id="cert-modal" class="cert-modal" onclick="closeCertModal()">
+    <div class="cert-modal-content" onclick="event.stopPropagation()">
+      <button class="cert-modal-close" onclick="closeCertModal()">&times;</button>
+      <img id="cert-modal-img" src="" alt="Certificate" />
+      <div id="cert-modal-title" class="cert-modal-title"></div>
+    </div>
+  </div>
+
+  <!-- ===== SCRIPTS ===== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
